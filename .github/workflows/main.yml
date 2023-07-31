@@ -22,7 +22,7 @@ jobs:
       
     - name: Build and tag Docker image 
       run: |
-        docker build -t jerrywise97/periodapp .
+        docker build -t felizdujadin/periodapp .
      
     - name: Log in to Docker Hub
       run: |
@@ -30,4 +30,4 @@ jobs:
     
     - name: Push Docker image to Docker Hub
       run: |
-        docker push jerrywise97/periodapp:v4.0
+        docker push felizdujadin/periodapp:V2.0
